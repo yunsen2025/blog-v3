@@ -29,12 +29,13 @@ export default defineNuxtConfig({
 				{ rel: 'icon', href: blogConfig.favicon },
 				{ rel: 'alternate', type: 'application/atom+xml', href: '/atom.xml' },
 				{ rel: 'preconnect', href: blogConfig.twikoo.preload },
-				{ rel: 'stylesheet', href: 'https://s4.zstatic.net/ajax/libs/KaTeX/0.16.44/katex.min.css', media: 'print', onload: 'this.media="all"' },
+				{ rel: 'stylesheet', href: 'https://registry.npmmirror.com/katex/0.16.44/files/dist/katex.min.css', media: 'print', onload: 'this.media="all"' },
 				// "InterVariable", "Inter", "InterDisplay"
 				{ rel: 'stylesheet', href: 'https://oss1.236668.xyz/fonts/inter/inter.css?_upd=inter.css&_upt=ce56c2851787252944', media: 'print', onload: 'this.media="all"' },
-				// "JetBrains Mono", 思源宋体 "Noto Serif SC"
-				{ rel: 'preconnect', href: 'https://fonts.gstatic.cn', crossorigin: '' },
-				{ rel: 'stylesheet', href: 'https://fonts.googleapis.cn/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Serif+SC:wght@200..900&display=swap', media: 'print', onload: 'this.media="all"' },
+				// "JetBrains Mono Variable", 思源宋体 "Noto Serif SC Variable"
+				{ rel: 'stylesheet', href: 'https://registry.npmmirror.com/@fontsource-variable/jetbrains-mono/5.3.0/files/wght.css', media: 'print', onload: 'this.media="all"' },
+				{ rel: 'stylesheet', href: 'https://registry.npmmirror.com/@fontsource-variable/jetbrains-mono/5.3.0/files/wght-italic.css', media: 'print', onload: 'this.media="all"' },
+				{ rel: 'stylesheet', href: 'https://registry.npmmirror.com/@fontsource-variable/noto-serif-sc/5.3.0/files/wght.css', media: 'print', onload: 'this.media="all"' },
 				// 抖音美好体 "DOUYINSANSBOLD-GB"
 				{ rel: 'stylesheet', href: 'https://fonts.bytedance.com/dfd/api/v1/css?family=DOUYINSANSBOLD-GB&display=swap', media: 'print', onload: 'this.media="all"' },
 			],

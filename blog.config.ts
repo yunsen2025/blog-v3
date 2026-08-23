@@ -74,7 +74,7 @@ const blogConfig = {
 		// 自己部署的 Umami 统计服务
 		{ 'src': 'https://umami.api.236668.xyz/script.js', 'data-website-id': '5a21135c-38ce-4a34-8636-b38d20634a8f', 'defer': true },
 		// Twikoo 评论系统
-		{ src: 'https://s4.zstatic.net/ajax/libs/twikoo/1.7.13/twikoo.min.js', defer: true },
+		{ src: 'https://registry.npmmirror.com/twikoo/1.7.13/files/dist/twikoo.min.js', defer: true },
 	],
 
 	/** 全站统计配置 */
